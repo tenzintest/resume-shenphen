@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topHeader h1 {
+    margin-left: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topHeader li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.topHeader nav li+li:before {
+    content: " | ";
+    padding: 0 10px;
+}
+
+.topHeader a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+.topHeader a:hover {
+    color: #b2dfdb;
+}
+
+.topWallpaper {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.topWallpaper img {
+    width: 80%;
+}
+
+.topWallpaper h3 {
+    text-align: center;
+    line-height: 65px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.4px;
+}
+
+header h2 {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+header p {
+    text-align: center;
+    padding: 20px 85px;
+    line-height: 35px;
+}
+
+.topProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+/* Skills */
+
+header h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.topSkillsWrapper {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 100%; */
+    flex: 1;
+    padding: 20px 40px;
+    max-width: 100%;
+    position: relative;
+    left: 50px;
+}
+
+.row:before {
+    content: "";
+    border: 1px solid #e3e2e2;
+    align-self: stretch;
+    position: relative;
+    left: 50%;
+}
+
+.Edu-column {
+    order: -1;
+}
+
+.column a {
+    text-decoration: none;
+    color: #555;
+}
+
+.column li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.Edu-column {
+    /* width: 60%; */
+    margin-bottom: 80px;
+}
+
+.Edu-column h2 {
+    font-weight: 700;
+}
+
+.Exp-column {}
+
+.Exp-column h2 {
+    font-weight: 700;
+}
+
+.skilss-column {
+    position: relative;
+    left: 150px;
+    margin-bottom: 50px;
+}
+
+.skilss-column h2 {
+    font-weight: 700;
+}
+
+.Lang-column {
+    position: relative;
+    left: 150px;
+}
+
+.Lang-column h2 {
+    font-weight: 700;
+}
+
+
+/* Contact page map */
+
+.topContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.topForm {
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+}
+
+.topForm input {
+    width: 350px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    background-color: #d9d9d9;
+    outline: 0;
+    border: 0;
+}
+
+.topForm .subject {
+    width: 725px;
+}
+
+.topForm textarea {
+    width: 735px;
+    background-color: #d9d9d9;
+    outline: 0;
+    border: 0;
+}
+
+.topForm .submitOne {
+    position: relative;
+    left: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #4bcfd8;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/* Footer */
+
+.footerLine {
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    margin: 0 30px;
+}
+
+.footerPart .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footerPart .column {
+    flex: 15%;
+}
+
+.column li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    right: 45px;
+    bottom: 15px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #555;
+}
+
+@media (min-width: 48em) {
+    .columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+}
