@@ -308,6 +308,41 @@
         }
     }
     
+    @media only screen and (min-width: 64.063em) {
+        .topSkillsWrapper {
+            margin: 0;
+        }
+        .topSkillsWrapper .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .topSkillsWrapper .column {
+            display: flex;
+            flex-direction: column;
+            /* flex-basis: 100%; */
+            flex: 1;
+            padding: 20px 40px;
+            max-width: 100%;
+        }
+        .Edu-column {
+            position: relative;
+            left: 40px !important;
+        }
+        .Exp-column {
+            position: relative;
+            left: 40px !important;
+        }
+        .skilss-column {
+            position: relative;
+            left: 60px !important;
+        }
+        .Lang-column {
+            position: relative;
+            left: 60px !important;
+        }
+    }
+    
     .row {
         display: flex;
         flex-direction: row;
