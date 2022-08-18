@@ -86,9 +86,9 @@
     @media only screen and (max-width: 40em) {
         .topWallpaper img {
             position: relative;
-            right: 40px;
-            margin-top: 80px;
-            width: 200%;
+            right: 125px;
+            margin-top: 50px;
+            width: 300%;
             border-radius: 30px;
         }
         .topWallpaper h3 {
